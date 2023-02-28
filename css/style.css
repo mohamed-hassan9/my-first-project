@@ -1,0 +1,436 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --light-color: #1db4e7;
+}
+
+
+body {
+    font-family: 'Courgette', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rampart One', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* start navbar */
+.text_logo {
+    color: white;
+    font-family: 'Courgette', cursive;
+    margin-bottom: -0.5px;
+}
+
+.text_description {
+    color: var(--green-color);
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: var(--green-color);
+}
+
+.search {
+    color: var(--green-color);
+    font-size: 16px;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 21px;
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* end navbar */
+/* start landing page */
+.fisrt_text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #58dbe7;
+    margin-bottom: 0px;
+    opacity: 90%;
+}
+
+.fisrt_text_d {
+    line-height: 27px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+/* end landing page */
+/* start about section */
+.about_head {
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 3.2rem;
+}
+
+.about_section::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: var(--light-color);
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about_contant {
+    max-width: 1000px;
+}
+
+.imag_about {
+    width: 329px;
+    height: 487px;
+    border-radius: 17px;
+}
+
+.about_name {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: var(--light-color);
+    font-size: 44px;
+}
+
+.about_desc {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+/*start responsive */
+@media screen and (max-width: 575px) {
+    .imag_about {
+        width: 262px;
+        height: 392px;
+        border-radius: 17px;
+    }
+
+    .about_desc {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .imag_about {
+        width: 220px;
+        height: 320px;
+        border-radius: 17px;
+    }
+
+    .about_desc {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .about_head {
+        font-family: 'Courgette', cursive;
+        font-size: 38px;
+        font-weight: bold;
+        margin-top: 4rem;
+        margin-bottom: 3.2rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .imag_about {
+        width: 425px;
+        height: 591px;
+        border-radius: 17px;
+    }
+
+    .about_desc {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 34px;
+        margin-top: 1rem;
+    }
+
+    .about_name {
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+        color: var(--light-color);
+        font-size: 44px;
+        margin-top: 4rem;
+    }
+}
+
+/*end responsive */
+/* end about section */
+/* start services section */
+.services_section {
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 3.2rem;
+}
+
+.services_section::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: var(--light-color);
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services_head {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* start cards */
+.card-img-top {
+    border-radius: 4px;
+}
+
+.card_text {
+    font-family: 'Fredericka the Great', cursive;
+    color: var(--green-color);
+}
+
+.card_text_d {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* end services section */
+
+/*  start our clients */
+.clients_section {
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 3.2rem;
+}
+
+.clients_section::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: var(--light-color);
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.clients_head {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.client_description {
+    font-family: 'Fredericka the Great', cursive;
+    color: var(--green-color);
+    margin-bottom: 3rem;
+}
+
+.d_desc {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.our_clients {
+    padding: 80px 0;
+}
+
+.icon_area {
+    text-align: center;
+}
+
+.icon_shat {
+    color: var(--green-color);
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.contant p {
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.persons {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var(--green-color);
+    margin-top: 50px;
+}
+
+.persons img {
+    width: 100%;
+}
+
+.person_name {
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+/* end our clients */
+/* start contact us */
+.contact_uss {
+    background-color: var(--dark-color);
+    height: 300px;
+
+}
+
+.text_logoo {
+    color: white;
+    font-family: 'Courgette', cursive;
+    margin-bottom: -0.5px;
+    font-size: 38px;
+}
+
+.text_descriptionn {
+    color: var(--green-color);
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact_head {
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 3.2rem;
+}
+
+.head_contact::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: var(--light-color);
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* first colum styls */
+.logo_contant {
+    margin: 20px 0px 20px 30px;
+}
+
+.desc_of_logo {
+    margin: 14px 0px 20px 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* first colum styls */
+/* second colum styles */
+.our_links {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.our_links:hover {
+    color: var(--green-color);
+}
+
+.contact_links {
+    padding-top: 13px;
+}
+
+.social_media {
+    color: var(--green-color);
+    font-size: 26px;
+    margin: -1px 0px 0px 30px;
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* responsive footer */
+@media(min-width: 279px) and (max-width:400px) {
+    .text_logoo {
+        color: white;
+        font-family: 'Courgette', cursive;
+        margin-bottom: -0.5px;
+        font-size: 27px;
+    }
+
+    .text_descriptionn {
+        color: var(--green-color);
+        margin-bottom: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .desc_of_logoo {
+        margin-top: -1px;
+        margin-bottom: -1rem;
+        font-size: 15px;
+    }
+
+    .social_media {
+        color: var(--green-color);
+        font-size: 22px;
+        margin: -1px 0px 0px 30px;
+    }
+
+    .our_links {
+        font-size: 14px;
+    }
+
+}
+
+/* responsive footer */
+/* second colum styles */
+/* end contact us */
